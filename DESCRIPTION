@@ -1,0 +1,20 @@
+Package: example.package
+Title: Example Package is an Example Package
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Jeff",
+           family = "Goldsmith",
+           role = c("aut", "cre"),
+           email = "jeff.goldsmith@columbia.edu")
+Description: This simulates data and summarizes results. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr,
+    magrittr,
+    tibble
+URL: https://github.com/jeff-goldsmith/example.package
+BugReports: https://github.com/jeff-goldsmith/example.package/issues
