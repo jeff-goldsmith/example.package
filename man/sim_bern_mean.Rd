@@ -20,5 +20,6 @@ Simulate data from a Bernoulli with some probability of success and return the e
 \examples{
 
 sim_bern_mean(30)
+sim_bern_mean(n = 30, prob = .75)
 
 }
